@@ -2,7 +2,8 @@ name: Selenium IDE project
 
 on:
   push:
-    - main
+    branches:
+      - main
 
 jobs:
   build:
